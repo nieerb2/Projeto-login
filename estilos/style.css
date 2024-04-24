@@ -1,3 +1,63 @@
 @charset "UTF-8";
 
-/*
+/* 
+    Paleta de cores:
+    verde*/
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html, body{
+        height: 100vh;
+    }
+
+    body{
+        background-color: rgb(153, 1, 153);
+    }
+
+    section#login{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+         
+   }
+
+    H1{
+        text-align: center;
+        padding: 10PX;
+    }
+
+    div{
+        display: block;
+        margin: auto;
+        width: 210px;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 0px;
+        
+    }
+
+    div#imagem{
+        background-image: url(../imagens/pexels-bruthethe-2747595\ \(1\).jpg);
+        height: 150PX;
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;
+    }
+
+    form{
+        : 10px;
+
+    }
+    
+
+    input{
+        
+        display: block;
+        border-radius: 5px;
+        margin: auto;
+    }
