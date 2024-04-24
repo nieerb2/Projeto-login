@@ -21,6 +21,7 @@
     section#login{
         display: block;
         position: absolute;
+        width: 210px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -32,32 +33,91 @@
         padding: 10PX;
     }
 
-    div{
+    div#formulario{
         display: block;
         margin: auto;
-        width: 210px;
-        border: 1px solid black;
-        padding: 10px;
-        border-radius: 0px;
+        width: 240px;
+        padding: 5px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-top: 0px;
+        border-bottom-left-radius:15px ;
+        border-bottom-right-radius:15px;
+        background-color: white;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
         
+    }
+
+    div#formulario >p{
+        padding: 3px;
+        line-height: 1.4em;
+        margin-bottom: 10px;
+        font-size: 0.9em;
     }
 
     div#imagem{
         background-image: url(../imagens/pexels-bruthethe-2747595\ \(1\).jpg);
-        height: 150PX;
+        height: 160PX;
+        width: 250px;
+        padding-bottom: 40px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-bottom: 0px;
+        
         border-top-left-radius: 10px; 
         border-top-right-radius: 10px;
+        background-position: center center;
     }
 
-    form{
-        : 10px;
-
+    div.credenciais{
+        background-color: purple;
+        border-radius: 5px;
+        height: 44px;
+        margin-bottom: 5px;
     }
     
 
-    input{
+    
+    #senha >input{
+        background-color: rgb(132, 187, 169);
         
-        display: block;
-        border-radius: 5px;
-        margin: auto;
     }
+        
+
+
+    div.credenciais > input{
+        width: 184px;
+        position: relative;
+        top: 3px;
+        left: 24px;
+        height: 38px;
+        background-color: whitesmoke;
+        text-align: justify;
+        
+     }
+    
+    
+
+    input{
+        text-align: center;
+        height: 44px;
+        border: 0px solid black;
+        width: 100%;
+        display: block;
+        border-radius: 5px;    
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+    #enviar{
+        color: white;
+        background-color: rgb(36, 117, 113);
+    }
+    #forgot{
+
+    }
+    #forgot{
+        color: rgb(80, 189, 189);
+        background-color: white;
+        border: 1px solid;
+    }
+    
