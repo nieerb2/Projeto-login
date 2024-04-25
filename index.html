@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/Medias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
@@ -17,7 +18,18 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo. Faça login para poder acessar sua conta e fazer as configurações em seu ambiente de trabalho.</p>
                 <form action="login.php" method="post">
-                    
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" required maxlength="30">
+                        <label for="ilogin">login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key</span>    
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required min="7" max="14">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                 </form>
             </div>
         </section>
